@@ -1,0 +1,11 @@
+commit 3e0663baa7206a2520a57d819636ec66a8a7f553 (HEAD -> master)
+Author: Prokopchik Daria <dashaprokopchic@mail.ru>
+Date:   Wed Feb 7 19:08:57 2018 +0300
+
+    status.txt
+
+commit ecebfbda2cc4752bb886ec118a4875e1074f745b
+Author: Prokopchik Daria <dashaprokopchic@mail.ru>
+Date:   Wed Feb 7 18:49:30 2018 +0300
+
+    add .gitignore
