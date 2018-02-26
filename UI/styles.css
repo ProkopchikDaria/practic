@@ -1,0 +1,120 @@
+h1 {
+    font-size: 24px;
+    text-align: center;
+    color: darkblue;
+    font-family: cursive;
+}
+h4 {
+    font-size: 20px;
+    text-align: left;
+    color: darkblue;
+    font-family: cursive;
+}
+h5 {
+    font-size: 18px;
+    text-align: left;
+    color: darkblue;
+    font-family: cursive;
+}
+p {
+    color: navy;
+    font-size:15px;
+    float:left;
+    font-family: cursive;
+}
+footer
+{
+    text-align:center;
+    color: darkslateblue;
+}
+body{
+    background: aliceblue;
+    margin:20px;
+    padding:20px;
+    front:16px/24px,Arial,Tahoma;
+}
+.header
+{
+    height: auto;
+    margin:0;
+    padding:0;
+}
+.exit {
+    float: right;
+    height: 25px;
+}
+a{
+    text-decoration: none;
+}
+.exit a:hover{color: lightseagreen;
+}
+.my-flex-container{
+    display: flex;
+    justify-content:center;
+}
+.my-flex-block{
+    flex-flow: column wrap;
+}
+.like
+{
+    color: darkblue;
+    display: inline-block;
+    background: greenyellow;
+    borger: 1px solid lime;
+    margin:10px;
+    padding: 10px;
+    border-radius: 6px;
+    text-align: center;
+    box-shadow: 0 0 10px darkorchid;
+}
+.button
+{
+    color: darkblue;
+    display: inline-block;
+    background: greenyellow;
+    borger: 1px solid lime;
+    margin:10px;
+    padding: 10px;
+    border-radius: 6px;
+    text-align: center;
+    font-family: cursive;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.lenta
+{ width:80%;
+    margin:20px;
+    padding:20px;
+    background : antiquewhite;
+    border:1px solid darkorchid;
+    border-color: wheat;
+    border-radius:30px;
+    padding:40px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+img
+{
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.holder
+{
+    position:relative;
+    width:300px;
+    height:400px;
+    background:#ff6600;
+    margin:100px auto;
+}
+.filter
+{
+    position:absolute;
+    left:0;
+    bottom:0;
+    right:0;
+    top:0;
+    background:rgba(255,255,255, 0.7);
+    padding:5px;
+    display:none;
+}
+.holder:hover .filter{
+    display:filter;
+}
