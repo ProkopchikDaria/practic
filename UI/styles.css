@@ -15,6 +15,7 @@ h5 {
     text-align: left;
     color: darkblue;
     font-family: cursive;
+
 }
 p {
     color: navy;
@@ -31,7 +32,7 @@ body{
     background: aliceblue;
     margin:20px;
     padding:20px;
-    front:16px/24px,Arial,Tahoma;
+    font:16px/24px Arial Tahoma sans-serif;
 }
 .header
 {
@@ -48,13 +49,6 @@ a{
 }
 .exit a:hover{color: lightseagreen;
 }
-.my-flex-container{
-    display: flex;
-    justify-content:center;
-}
-.my-flex-block{
-    flex-flow: column wrap;
-}
 .like
 {
     color: darkblue;
@@ -66,6 +60,7 @@ a{
     border-radius: 6px;
     text-align: center;
     box-shadow: 0 0 10px darkorchid;
+    cursor: pointer;
 }
 .button
 {
@@ -79,10 +74,14 @@ a{
     text-align: center;
     font-family: cursive;
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    cursor: pointer;
 }
 
-.lenta
-{ width:80%;
+.fon
+{
+    display: flex;
+    justify-content:center;
+    width:80%;
     margin:20px;
     padding:20px;
     background : antiquewhite;
@@ -95,5 +94,46 @@ a{
 img
 {
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    max-width: 500px;
+    max-height: 400px;
 }
-
+.buttonLoad
+{
+    color: darkblue;
+    display: inline-block;
+    background: greenyellow;
+    borger: 1px solid lime;
+    margin:10px;
+    padding: 10px;
+    border-radius: 6px;
+    text-align: center;
+    font-family: cursive;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.menu
+{
+    display: flex;
+    justify-content:center;
+}
+.load
+{
+    display: flex;
+    justify-content:center;
+}
+.menu-button
+{
+    flex-flow: column wrap;
+}
+.photopost
+{
+    display: flex;
+    justify-content:center;
+}
+.imageflex
+{
+    flex-flow: column wrap;
+}
+.infoflex
+{
+    flex-flow: column wrap;
+}
