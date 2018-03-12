@@ -11,13 +11,13 @@
     <link rel="stylesheet"  href="styles.css" media="all">
 </head>
 <body>
-<script src="script.js"></script>
 <div class="header">
-    <img src="images/cat2.png" width=10% alt="Логотип сайта" title="Логотип" >
-    <div class="exit">
+    <img class="logo" src="images/cat2.png"  alt="Логотип сайта" title="Логотип" >
+    <div class="exit" >
           <h4><a href="#">Выйти</a></h4>
     </div>
-    <h4>Имя пользователя</h4>
+    <h4 class ="userName">Имя пользователя</h4>
+    <input class ="authorization" type="submit" name="authorization" value="Регистрация" style="display: none">
     <h1>Добро пожаловать в Cotogram!</h1>
 </div>
 <div class="content">
@@ -26,235 +26,15 @@
            <input class="button" type="submit" name="filter" value="Применить фильтр">
         </div>
         <div class="menu-button">
-            <input class ="button" type="submit" name="add" value="Добавить фото пост">
+            <input class ="buttonAdd" type="submit" name="add" value="Добавить фото пост">
         </div>
     </div>
     <!--Вставка фото постов-->
-    <div class="photopost">
-    <div class="background">
-        <div class="imageflex">
-            <section>
-                <img src="http://bipbap.ru/wp-content/uploads/2017/09/81736420_4601429_milii_kot_2012.jpg" width=70% alt="Фотография" title="фото">
-                <form>
-                    <input class="button" type="submit" name="delete" value="Удалить">
-                    <input class ="button" type="submit" name="change" value="Редактировать">
-                </form>
-                <h4>Краткое описание:</h4>
-                <p>Милаха!</p>
-            </section>
-        </div>
-        <div class="infoflex">
-            <section>
-                <h5>Дарья</h5>
-                <h5>27.02.2018 11:45</h5>
-                <h5>#котята #милахи</h5>
-                <h5>Кол-во лайков: 1</h5>
-                <input class="like" type="submit" name="like" value="♥">
-            </section>
-        </div>
+    <main>
+
+    </main>
     </div>
-        </div>
-    <div class="photopost">
-            <div class="background">
-                <div class="imageflex">
-                    <section>
-                        <img src="https://vesti-ukr.com/img/article/2342/8_main.jpg" width="70%" alt="Фотография" title="фото">
-                        <h4>Краткое описание:</h4>
-                        <p>Спаааать</p>
-                    </section>
-                </div>
-                <div class="infoflex">
-                    <section>
-                        <h5>Светочка</h5>
-                        <h5>26.02.2018 12:00</h5>
-                        <h5>#sleep #кот</h5>
-                        <h5>Кол-во лайков:2</h5>
-                        <input class="like" type="submit" name="like" value="♥">
-                    </section>
-                </div>
-            </div>
-        </div>
-    <div class="photopost">
-        <div class="background">
-                <div class="imageflex">
-                    <section>
-                        <img src="http://gloss.ua/file/t/17/11/28/bqeye_640x360.jpg" width=70% alt="Фотография" title="фото">
-                        <form>
-                            <input class="button" type="submit" name="delete" value="Удалить">
-                            <input class ="button" type="submit" name="change" value="Редактировать">
-                        </form>
-                        <h4>Краткое описание:</h4>
-                        <p>Голубоглазая красавица</p>
-                    </section>
-                </div>
-                <div class="infoflex">
-                    <section>
-                        <h5>Дарья</h5>
-                        <h5>26.02.2018 11:00</h5>
-                        <h5>#красавица #кошка</h5>
-                        <h5>Кол-во лайков:3</h5>
-                        <input class="like" type="submit" name="like" value="♥">
-                    </section>
-                </div>
-            </div>
-    </div>
-    <div class="photopost">
-        <div class="background">
-                <div class="imageflex">
-                    <section>
-                        <img src="https://i05.fotocdn.net/s16/239/gallery_m/294/88548846.jpg" width=70% alt="Фотография" title="фото">
-                        <h4>Краткое описание:</h4>
-                        <p>Белая красавица!</p>
-                    </section>
-                </div>
-                <div class="infoflex">
-                    <section>
-                        <h5>Ленка</h5>
-                        <h5>26.02.2018 10:00</h5>
-                        <h5>#cat #whitecat</h5>
-                        <h5>Кол-во лайков:4</h5>
-                        <input class="like" type="submit" name="like" value="♥">
-                    </section>
-                </div>
-            </div>
-    </div>
-    <div class="photopost">
-        <div class="background">
-                <div class="imageflex">
-                    <section>
-                        <img src="http://www.bugaga.ru/uploads/posts/2014-06/1401723206_kotyatki-7.jpg" width=70% alt="Фотография" title="фото">
-                        <form>
-                            <input class="button" type="submit" name="delete" value="Удалить">
-                            <input class ="button" type="submit" name="change" value="Редактировать">
-                        </form>
-                        <h4>Краткое описание:</h4>
-                        <p>В галстуке!)</p>
-                    </section>
-                </div>
-                <div class="infoflex">
-                    <section>
-                        <h5>Дарья</h5>
-                        <h5>25.02.2018 18:00</h5>
-                        <h5>#галстук #серьезныйкот</h5>
-                        <h5>Кол-во лайков:3</h5>
-                        <input class="like" type="submit" name="like" value="♥">
-                    </section>
-                </div>
-            </div>
-    </div>
-    <div class="photopost">
-        <div class="background">
-                <div class="imageflex">
-                    <section>
-                        <img src="http://mtdata.ru/u7/photoB210/20929454113-0/original.jpeg" width=70% alt="Фотография" title="фото">
-                        <form>
-                            <input class="button" type="submit" name="delete" value="Удалить">
-                            <input class ="button" type="submit" name="change" value="Редактировать">
-                        </form>
-                        <h4>Краткое описание:</h4>
-                        <p>Какие глазки)))</p>
-                    </section>
-                </div>
-                <div class="infoflex">
-                    <section>
-                        <h5>Дарья</h5>
-                        <h5>25.02.2018 17:00</h5>
-                        <h5>#глазки#котик</h5>
-                        <h5>Кол-во лайков:4</h5>
-                        <input class="like" type="submit" name="like" value="♥">
-                    </section>
-                </div>
-            </div>
-    </div>
-    <div class="photopost">
-        <div class="background">
-                <div class="imageflex">
-                    <section>
-                        <img src="http://zooblog.ru/uploads/posts/2016-08/1472585036_screenshot_3.png" width=70% alt="Фотография" title="фото">
-                        <h4>Краткое описание:</h4>
-                        <p>Главное улыбаться)</p>
-                    </section>
-                </div>
-                <div class="infoflex">
-                    <section>
-                        <h5>Женя</h5>
-                        <h5>24.02.2018 18:00</h5>
-                        <h5>#улыбка#кот#позитив</h5>
-                        <h5>Кол-во лайков:2</h5>
-                        <input class="like" type="submit" name="like" value="♥">
-                    </section>
-                </div>
-            </div>
-    </div>
-    <div class="photopost">
-        <div class="background">
-                <div class="imageflex">
-                    <section>
-                        <img src="http://catspaw.ru/wp-content/uploads/2017/01/Smeshnyie_kotyi_Michelle_Kelley.jpg" width=70% alt="Фотография" title="фото">
-                        <form>
-                            <input class="button" type="submit" name="delete" value="Удалить">
-                            <input class ="button" type="submit" name="change" value="Редактировать">
-                        </form>
-                        <h4>Краткое описание:</h4>
-                        <p>Водичка...</p>
-                    </section>
-                </div>
-                <div class="infoflex">
-                    <section>
-                        <h5>Дарья</h5>
-                        <h5>22.02.2018 18:00</h5>
-                        <h5>#вода #котики</h5>
-                        <h5>Кол-во лайков:3</h5>
-                        <input class="like" type="submit" name="like" value="♥">
-                    </section>
-                </div>
-            </div>
-    </div>
-    <div class="photopost">
-        <div class="background">
-                <div class="imageflex">
-                    <section>
-                        <img src="http://kakzachem.ru/wp-content/uploads/2017/12/5-17.jpeg" width=70% alt="Фотография" title="фото">
-                        <form>
-                            <input class="button" type="submit" name="delete" value="Удалить">
-                            <input class ="button" type="submit" name="change" value="Редактировать">
-                        </form>
-                        <h4>Краткое описание:</h4>
-                        <p>Очень вкусно)</p>
-                    </section>
-                </div>
-                <div class="infoflex">
-                    <section>
-                        <h5>Дарья</h5>
-                        <h5>21.02.2018 16:22</h5>
-                        <h5>#елка #котик</h5>
-                        <h5>Кол-во лайков:4</h5>
-                        <input class="like" type="submit" name="like" value="♥">
-                    </section>
-                </div>
-        </div>
-    </div>
-    <div class="photopost">
-        <div class="background">
-                <div class="imageflex">
-                    <section>
-                        <img src="http://murkote.com/wp-content/uploads/2016/05/13-smeshnoj-kot.jpg" width=70% alt="Фотография" title="фото">
-                        <h4>Краткое описание:</h4>
-                        <p>Привет))</p>
-                    </section>
-                </div>
-                <div class="infoflex">
-                    <section>
-                        <h5>Катюха</h5>
-                        <h5>21.02.2018 15:20</h5>
-                        <h5>#привет #кот</h5>
-                        <h5>Кол-во лайков:2</h5>
-                        <input class="like" type="submit" name="like" value="♥">
-                    </section>
-                </div>
-            </div>
-    </div>
-    </div>
+
 <div class="load">
 <input class="buttonLoad" type="submit" name="load" value="Загрузить еще">
 </div>
@@ -262,4 +42,5 @@
     <footer>© 2018 Cotogram| Прокопчик Дарья | 2 курс 8 группа | dashaprokopchic@mail.ru | дата последнего изменения: </footer>
 </div>
 </body>
+<script src="script.js"></script>
 </html>

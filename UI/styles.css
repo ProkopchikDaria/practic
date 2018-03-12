@@ -76,7 +76,34 @@ a{
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
     cursor: pointer;
 }
-
+.authorization
+{
+    color: darkblue;
+    display: inline-block;
+    background: greenyellow;
+    borger: 1px solid lime;
+    margin:10px;
+    padding: 10px;
+    border-radius: 6px;
+    text-align: center;
+    font-family: cursive;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    cursor: pointer;
+}
+.buttonAdd
+{
+    color: darkblue;
+    display: inline-block;
+    background: greenyellow;
+    borger: 1px solid lime;
+    margin:10px;
+    padding: 10px;
+    border-radius: 6px;
+    text-align: center;
+    font-family: cursive;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    cursor: pointer;
+}
 .background
 {
     display: flex;
@@ -96,6 +123,9 @@ img
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
     max-width: 500px;
     max-height: 400px;
+    width:70%;
+    alt:"Фотография";
+    title:"фото"
 }
 .buttonLoad
 {
@@ -138,4 +168,8 @@ img
 .infoflex
 {
     flex-flow: column wrap;
+}
+img.logo
+{
+    width:10%;
 }
