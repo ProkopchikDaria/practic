@@ -8,7 +8,7 @@ window.fun = (function (parametr) {
                 author: 'Дарья',
                 photoLink: 'http://bipbap.ru/wp-content/uploads/2017/09/81736420_4601429_milii_kot_2012.jpg',
                 likes: ['Светочка'],
-                hashTags: ['#котята', '#милахи']
+                hashTags: ['котята', 'милахи']
             },
             {
                 id: '2',
@@ -17,7 +17,7 @@ window.fun = (function (parametr) {
                 author: 'Светочка',
                 photoLink: 'https://vesti-ukr.com/img/article/2342/8_main.jpg',
                 likes: ['Светочка', 'Дарья'],
-                hashTags: ['#sleep', '#кот']
+                hashTags: ['sleep', 'кот']
             },
             {
                 id: '3',
@@ -26,7 +26,7 @@ window.fun = (function (parametr) {
                 author: 'Дарья',
                 photoLink: 'http://gloss.ua/file/t/17/11/28/bqeye_640x360.jpg',
                 likes: ['Светочка', 'Дарья', 'Ленка'],
-                hashTags: ['#красавица', '#кошка']
+                hashTags: ['красавица', 'кошка']
             },
             {
                 id: '4',
@@ -35,7 +35,7 @@ window.fun = (function (parametr) {
                 author: 'Ленка',
                 photoLink: 'https://i05.fotocdn.net/s16/239/gallery_m/294/88548846.jpg',
                 likes: ['Светочка', 'Дарья', 'Женя', 'Ленка'],
-                hashTags: ['#cat', '#whitecat']
+                hashTags: ['cat', 'whitecat']
             },
             {
                 id: '5',
@@ -44,7 +44,7 @@ window.fun = (function (parametr) {
                 author: 'Дарья',
                 photoLink: 'http://www.bugaga.ru/uploads/posts/2014-06/1401723206_kotyatki-7.jpg',
                 likes: ['Светочка', 'Женя', 'Ленка'],
-                hashTags: ['#галстук', '#серьезныйкот']
+                hashTags: ['галстук', 'серьезныйкот']
             },
             {
                 id: '6',
@@ -53,7 +53,7 @@ window.fun = (function (parametr) {
                 author: 'Дарья',
                 photoLink: 'http://mtdata.ru/u7/photoB210/20929454113-0/original.jpeg',
                 likes: ['Светочка', 'Женя', 'Ленка', 'Дарья'],
-                hashTags: ['#глазки', '#котик']
+                hashTags: ['глазки', 'котик']
             },
             {
                 id: '7',
@@ -62,7 +62,7 @@ window.fun = (function (parametr) {
                 author: 'Женя',
                 photoLink: 'http://zooblog.ru/uploads/posts/2016-08/1472585036_screenshot_3.png',
                 likes: ['Ленка', 'Дарья'],
-                hashTags: ['#улыбка', '#кот', '#позитив']
+                hashTags: ['улыбка', 'кот', 'позитив']
             },
             {
                 id: '8',
@@ -71,7 +71,7 @@ window.fun = (function (parametr) {
                 author: 'Дарья',
                 photoLink: 'http://catspaw.ru/wp-content/uploads/2017/01/Smeshnyie_kotyi_Michelle_Kelley.jpg',
                 likes: ['Ленка', 'Дарья', 'Светка'],
-                hashTags: ['#вода', '#котики']
+                hashTags: ['вода', 'котики']
             },
             {
                 id: '9',
@@ -80,7 +80,7 @@ window.fun = (function (parametr) {
                 author: 'Дарья',
                 photoLink: 'http://kakzachem.ru/wp-content/uploads/2017/12/5-17.jpeg',
                 likes: ['Ленка', 'Дарья', 'Светка', 'Катюха'],
-                hashTags: ['#елка', '#котик']
+                hashTags: ['елка', 'котик']
             },
             {
                 id: '10',
@@ -89,7 +89,7 @@ window.fun = (function (parametr) {
                 author: 'Катюха',
                 photoLink: 'http://murkote.com/wp-content/uploads/2016/05/13-smeshnoj-kot.jpg',
                 likes: ['Ленка', 'Дарья'],
-                hashTags: ['#привет', '#кот']
+                hashTags: ['привет', 'кот']
             },
             {
                 id: '11',
@@ -98,7 +98,7 @@ window.fun = (function (parametr) {
                 author: 'Дарья',
                 photoLink: 'http://www.catgallery.ru/kototeka/wp-content/uploads/2015/04/Foto-podborka-kosoglazyih-kotikov-3.jpg',
                 likes: ['Ленка', 'Дарья', 'Кира'],
-                hashTags: ['#hello', '#кот']
+                hashTags: ['hello', 'кот']
             },
             {
                 id: '12',
@@ -107,7 +107,7 @@ window.fun = (function (parametr) {
                 author: 'Лида',
                 photoLink: 'https://titcat.ru/wa-data/public/blog/plugins/logopost/images/b5WN35EdpA.jpg',
                 likes: ['Ленка'],
-                hashTags: ['#кот']
+                hashTags: ['кот']
             },
             {
                 id: '13',
@@ -116,7 +116,7 @@ window.fun = (function (parametr) {
                 author: 'Ритуля',
                 photoLink: 'https://i.ytimg.com/vi/dvSnEeMlbb0/maxresdefault.jpg',
                 likes: ['Ленка', 'Дарья', 'Крис'],
-                hashTags: ['#kitty', '#котики']
+                hashTags: ['kitty', 'котики']
             },
             {
                 id: '14',
@@ -125,7 +125,7 @@ window.fun = (function (parametr) {
                 author: 'Дарья',
                 photoLink: 'https://i07.fotocdn.net/s27/80/public_pin_l/51/2667852367.jpg',
                 likes: ['Ленка', 'Дарья'],
-                hashTags: ['#hellokitty', '#кот']
+                hashTags: ['hellokitty', 'кот']
             },
             {
                 id: '15',
@@ -134,7 +134,7 @@ window.fun = (function (parametr) {
                 author: 'Кристина',
                 photoLink: 'http://kremen.today/wp-content/uploads/2016/02/xkotenok.jpg.pagespeed.ic.SZlAK7a8ox.jpg',
                 likes: ['Дарья'],
-                hashTags: ['#кот']
+                hashTags: ['кот']
             },
             {
                 id: '16',
@@ -143,7 +143,7 @@ window.fun = (function (parametr) {
                 author: 'Маша',
                 photoLink: 'https://petpop.cc/upload/post/2017/12/11/1715938/ulybayushyjsya-kot-29-23.jpg',
                 likes: ['Ленка', 'Дарья', 'Рита'],
-                hashTags: ['#котэ', '#кот', '#котяра']
+                hashTags: ['котэ', 'кот', 'котяра']
             },
             {
                 id: '17',
@@ -152,7 +152,7 @@ window.fun = (function (parametr) {
                 author: 'Дарья',
                 photoLink: 'http://kotikinyashki.ru/media/uploads/11034259_1085854494774846_140668731985910005_n.jpg',
                 likes: ['Ленка', 'Дарья', 'Женя', 'Света'],
-                hashTags: ['#котипраздник', '#14022018']
+                hashTags: ['котипраздник', '14022018']
             },
             {
                 id: '18',
@@ -161,7 +161,7 @@ window.fun = (function (parametr) {
                 author: 'Светка',
                 photoLink: 'http://ic.pics.livejournal.com/anastgal/2719565/2553481/2553481_original.jpg',
                 likes: ['Дарья'],
-                hashTags: ['#котики', '#кот']
+                hashTags: ['котики', 'кот']
             },
             {
                 id: '19',
@@ -170,7 +170,7 @@ window.fun = (function (parametr) {
                 author: 'Дарья',
                 photoLink: 'http://kaifolog.ru/uploads/posts/2014-03/thumbs/1396231060_020.jpg',
                 likes: ['Ленка'],
-                hashTags: ['#кошара', '#кот']
+                hashTags: ['кошара', 'кот']
             },
             {
                 id: '20',
@@ -179,7 +179,7 @@ window.fun = (function (parametr) {
                 author: 'Крис',
                 photoLink: 'http://expert.coffee/userfiles/podborki/Kofe_Kotiki_part-2/Kofe_Kotiki_part-2_1.jpg',
                 likes: ['Женя', 'Крис'],
-                hashTags: ['#котя', '#кот']
+                hashTags: ['котя', 'кот']
             },
         ];
 
@@ -200,8 +200,8 @@ window.fun = (function (parametr) {
 
                 if (filterConfig.author) {
                     res = res.filter(function (value) {
-                        if (value.author === filterConfig.author)
-                            return value;
+                        if (value.author === filterConfig.author){
+                        return value;}
                     })
 
                 }
@@ -331,7 +331,7 @@ var filterByDate =
     };
 var filterByHashTag =
     {
-        hashTags: ["#кот"]
+        hashTags: ["кот"]
     };
 
 var filterByAuthor =
@@ -341,7 +341,7 @@ var filterByAuthor =
 var filterByAuthorTag =
     {
         author: 'Дарья',
-        hashTags: ['#кот']
+        hashTags: ['кот']
     };
 var filterByAuthorDate =
     {
@@ -356,7 +356,7 @@ var photoPostEdit1 =
     {
         photoLink: 'http://bipbap.ru/wp-content/uploads/2017/06/0fb1612ab996t.jpg',
         description: 'Подмигивание',
-        hashTags: ['#hello', '#changecat']
+        hashTags: ['hello', 'changecat']
     };
 var photoPostValidate1 =
     {
@@ -366,7 +366,7 @@ var photoPostValidate1 =
         author: 'Крис',
         photoLink: 'http://expert.coffee/userfiles/podborki/Kofe_Kotiki_part-2/Kofe_Kotiki_part-2_1.jpg',
         likes: ['Женя', 'Крис'],
-        hashTags: ['#котя', '#кот']
+        hashTags: ['котя', 'кот']
     };
 var photoPostValidate2 =
     {
@@ -376,17 +376,17 @@ var photoPostValidate2 =
         author: 'Крис',
         photoLink: 'http://expert.coffee/userfiles/podborki/Kofe_Kotiki_part-2/Kofe_Kotiki_part-2_1.jpg',
         likes: ['Женя', 'Крис'],
-        hashTags: ['#котя', '#кот']
+        hashTags: ['котя', 'кот']
     };
 var photoPostAdd1 =
     {
         id: '21',
         author: 'Рита',
-        createdAt: new Date('2018-02-11T12:20:04'),
+        createdAt: new Date('2018-02-12T12:20:04'),
         photoLink: 'http://bipbap.ru/wp-content/uploads/2017/06/0fb1612ab996t.jpg',
         description: 'Подмигивание',
         likes: [],
-        hashTags: ['#подмигивание', '#кот']
+        hashTags: ['подмигивание', 'кот']
     }
 var photoPostAdd2 =
     {
@@ -396,7 +396,7 @@ var photoPostAdd2 =
         photoLink: 'http://bipbap.ru/wp-content/uploads/2017/06/0fb1612ab996t.jpg',
         description: 'Подмигивание',
         likes: [],
-        hashTags: ['#привет', '#кот']
+        hashTags: ['привет', 'кот']
     }
 console.log('получить массив фото постов с сортировкой')
 console.log('10 фото постов:');
@@ -405,11 +405,11 @@ console.log("Получить массив фото постов top=null,skip=n
 console.log(fun.getPhotoPosts(null, null));
 console.log("По автору 'Дарья'");
 console.log(fun.getPhotoPosts(0, 10, filterByAuthor));
-console.log("По хештегу '#кот' ");
+console.log("По хештегу 'кот' ");
 console.log(fun.getPhotoPosts(0, 20, filterByHashTag));
 console.log("По дате  ");
 console.log(fun.getPhotoPosts(0, 20, filterByDate));
-console.log("По автору 'Дарья' и хештегу '#кот'");
+console.log("По автору 'Дарья' и хештегу 'кот'");
 console.log(fun.getPhotoPosts(0, 20, filterByAuthorTag));
 console.log("По автору 'Дарья' и дате ");
 console.log(fun.getPhotoPosts(0, 20, filterByAuthorDate));
@@ -444,144 +444,3 @@ console.log(fun.removePhotoPost('16'));
 console.log(fun.getPhotoPosts(0, 20));
 console.log("Удалить фото пост по id=2 из массива photoPosts");
 console.log(fun.removePhotoPost(2));
-
-window.dom = (function () {
-    var main = document.querySelector('main');
-    var name = document.querySelector('.userName');
-    var authorizationButton=document.querySelector('.authorization');
-    var exitButton = document.querySelector('.exit');
-    var addButton = document.querySelector('.buttonAdd');
-    return {
-        user: null,
-        changeUser: function (userName) {
-            if (userName !== null && typeof userName != 'undefined') {
-                this.user = userName;
-                name.innerHTML = this.user;
-            } else {
-                this.user = null;
-                name.innerHTML = 'Гость';
-                exitButton.style.display='none';
-                authorizationButton.style.display='initial';
-                addButton.style.display='none';
-            }
-        },
-        createPhotoPost: function(photoPost)
-        {
-            var post = document.createElement('div');
-            post.className = 'photopost';
-            post.id = photoPost.id;
-            var background = document.createElement('div');
-            background.className = 'background';
-            var imageflex = document.createElement('div');
-            imageflex.className = 'imageflex';
-            var section = document.createElement('section');
-            var image = document.createElement('img');
-            var form = document.createElement('form');
-            var buttonChange = document.createElement('input');
-            buttonChange.className = 'button';
-            buttonChange.type = 'submit';
-            buttonChange.value = 'Редактировать';
-            buttonChange.name = 'change';
-            var buttonDelete = document.createElement('input');
-            buttonDelete.className = 'button';
-            buttonDelete.type = 'submit';
-            buttonDelete.value = 'Удалить';
-            buttonDelete.name = 'change';
-            var description = document.createElement('p');
-            var infoflex = document.createElement('div');
-            var author = document.createElement('h5');
-            var date = document.createElement('h5');
-            var tags = document.createElement('h5');
-            /*var count = document.createElement('h5');*/
-            var buttonLike = document.createElement('input');
-            buttonLike.className = 'like';
-            buttonLike.type = 'submit';
-            buttonLike.value = '♥';
-            buttonLike.name = 'like';
-            author.innerHTML = photoPost.author;
-            var month=photoPost.createdAt.getMonth()+1;
-            var minutes;
-            if( photoPost.createdAt.getMinutes()===0)
-            {
-                minutes='00'
-            }
-            else
-            {
-                minutes= photoPost.createdAt.getMinutes();}
-            date.innerHTML = photoPost.createdAt.getHours()+':'+
-                minutes+'  '+
-                photoPost.createdAt.getDate()+'.'+month+'.'+
-                photoPost.createdAt.getFullYear();
-            image.src = photoPost.photoLink;
-            tags.innerHTML = photoPost.hashTags;
-            description.innerHTML = photoPost.description;
-            form.append(buttonDelete,buttonChange);
-            section.append(image,form,description)
-            infoflex.append(author,date,tags,buttonLike);
-            imageflex.append(section);
-            background.append(imageflex,infoflex);
-            post.appendChild(background);
-            if(this.user !== null && this.user !== photoPost.author)
-            {
-                buttonChange.style.display='none';
-                buttonDelete.style.display='none';
-                buttonLike.style.display='none';
-            }
-            if(this.user === null)
-            {
-                buttonChange.style.display='none';
-                buttonDelete.style.display='none';
-                buttonLike.style.display='none';
-            }
-            return post;
-        },
-        addPhotoPost: function(photoPost)
-        {
-            if(fun.addPhotoPost(photoPost))
-            {
-                main.appendChild(this.createPhotoPost(photoPost));
-                return true;
-            }
-            return false;
-        },
-        getPhotoPosts: function(skip ,top ,filterConfig)
-        {
-            var posts = fun.getPhotoPosts(skip,top,filterConfig);
-            for(var i = 0; i<posts.length; i++)
-                main.appendChild(this.createPhotoPost(posts[i]));
-        },
-        editPhotoPost: function(id,photoPost)
-        {
-            if(fun.editPhotoPost(id,photoPost))
-            {
-                main.replaceChild(this.createPhotoPost(fun.getPhotoPost(id)),document.getElementById(id));
-                return true;
-            }
-            return false;
-        },
-        removePhotoPost: function(id)
-        {
-            if(fun.removePhotoPost(id))
-            {
-                main.removeChild(document.getElementById(id));
-                return true;
-            }
-            return false;
-        }
-    }
-})()
-
-var photoPostEdit3 = {
-    description: 'Поменяли'
-};
-
-dom.changeUser('Дарья');
-dom.getPhotoPosts(0,10);
-dom.addPhotoPost(photoPostAdd1);
-dom.removePhotoPost('1');
-dom.editPhotoPost('3',photoPostEdit3);
-
-/*Пример для неавторизированного пользователя*/
-/*
-dom.changeUser();
-dom.getPhotoPosts(0,10);*/
