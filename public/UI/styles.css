@@ -1,0 +1,175 @@
+h1 {
+    font-size: 24px;
+    text-align: center;
+    color: darkblue;
+    font-family: cursive;
+}
+h4 {
+    font-size: 20px;
+    text-align: left;
+    color: darkblue;
+    font-family: cursive;
+}
+h5 {
+    font-size: 18px;
+    text-align: left;
+    color: darkblue;
+    font-family: cursive;
+
+}
+p {
+    color: navy;
+    font-size:15px;
+    float:left;
+    font-family: cursive;
+}
+footer
+{
+    text-align:center;
+    color: darkslateblue;
+}
+body{
+    background: aliceblue;
+    margin:20px;
+    padding:20px;
+    font:16px/24px Arial Tahoma sans-serif;
+}
+.header
+{
+    height: auto;
+    margin:0;
+    padding:0;
+}
+.exit {
+    float: right;
+    height: 25px;
+}
+a{
+    text-decoration: none;
+}
+.exit a:hover{color: lightseagreen;
+}
+.like
+{
+    color: darkblue;
+    display: inline-block;
+    background: greenyellow;
+    borger: 1px solid lime;
+    margin:10px;
+    padding: 10px;
+    border-radius: 6px;
+    text-align: center;
+    box-shadow: 0 0 10px darkorchid;
+    cursor: pointer;
+}
+.button
+{
+    color: darkblue;
+    display: inline-block;
+    background: greenyellow;
+    borger: 1px solid lime;
+    margin:10px;
+    padding: 10px;
+    border-radius: 6px;
+    text-align: center;
+    font-family: cursive;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    cursor: pointer;
+}
+.authorization
+{
+    color: darkblue;
+    display: inline-block;
+    background: greenyellow;
+    borger: 1px solid lime;
+    margin:10px;
+    padding: 10px;
+    border-radius: 6px;
+    text-align: center;
+    font-family: cursive;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    cursor: pointer;
+}
+.buttonAdd
+{
+    color: darkblue;
+    display: inline-block;
+    background: greenyellow;
+    borger: 1px solid lime;
+    margin:10px;
+    padding: 10px;
+    border-radius: 6px;
+    text-align: center;
+    font-family: cursive;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    cursor: pointer;
+}
+.background
+{
+    display: flex;
+    justify-content:center;
+    width:80%;
+    margin:20px;
+    padding:20px;
+    background : antiquewhite;
+    border:1px solid darkorchid;
+    border-color: wheat;
+    border-radius:30px;
+    padding:40px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+img
+{
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    max-width: 500px;
+    max-height: 400px;
+    width:70%;
+    alt:"Фотография";
+    title:"фото"
+}
+.buttonLoad
+{
+    color: darkblue;
+    display: inline-block;
+    background: greenyellow;
+    borger: 1px solid lime;
+    margin:10px;
+    padding: 10px;
+    border-radius: 6px;
+    text-align: center;
+    font-family: cursive;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    cursor: pointer;
+
+}
+.menu
+{
+    display: flex;
+    justify-content:center;
+}
+.load
+{
+    display: flex;
+    justify-content:center;
+}
+.menu-button
+{
+    flex-flow: column wrap;
+}
+.photopost
+{
+    display: flex;
+    justify-content:center;
+}
+.imageflex
+{
+    flex-flow: column wrap;
+}
+.infoflex
+{
+    flex-flow: column wrap;
+}
+img.logo
+{
+    width:10%;
+}
