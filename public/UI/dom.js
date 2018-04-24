@@ -4,16 +4,16 @@ window.dom = (function () {
     var authorizationButton=document.querySelector('.authorization');
     var exitButton = document.querySelector('.exit');
     var addButton = document.querySelector('.buttonAdd');
-    user: null;
+    var user = null;
     function createButtons(photoPost,buttonChange,buttonDelete,buttonLike) {
-        if(this.user !== null && this.user !== photoPost.author){
+        if(user !== null && user !== photoPost.author){
             buttonChange.style.display='none';
             buttonDelete.style.display='none';
         }
-        if(this.user === null || this.user === "undefined" ){
+        if(user === null || user === "undefined" ){
             buttonChange.style.display='none';
             buttonDelete.style.display='none';
-            buttonLike.style.display='none';
+            // buttonLike.style.display='none';
         }
     }
     function settingsForButtonChange(buttonChange) {
@@ -127,7 +127,7 @@ window.dom = (function () {
             return false;
         }
     }
-})()
+})();
 
 var photoPostEdit3 = {
     description: 'Поменяли'
@@ -141,14 +141,14 @@ var photoPostAdd3 = {
         likes: [],
         hashTags: ['шоколад', 'кот']
     };
-
-dom.changeUser('Дарья');
-dom.getPhotoPosts(0,10);
-dom.addPhotoPost(photoPostAdd3);
-dom.removePhotoPost('1');
-dom.editPhotoPost('3',photoPostEdit3);
+//
+// dom.changeUser('Дарья');
+// dom.getPhotoPosts(0,10);
+// dom.addPhotoPost(photoPostAdd3);
+// dom.removePhotoPost('1');
+// dom.editPhotoPost('3',photoPostEdit3);
 
 /*Пример для неавторизированного пользователя*/
 
-// dom.changeUser();
-// dom.getPhotoPosts(0,10);
+dom.changeUser();
+dom.getPhotoPosts(0,10);
